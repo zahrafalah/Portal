@@ -3,3 +3,7 @@ img {
   height: 100%;
   object-fit: contain;
 }
+
+.grad {
+  background-image: linear-gradient(#f87e2c, #fb7e2a, #e06314);
+}
