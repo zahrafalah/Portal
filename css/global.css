@@ -1,3 +1,6 @@
+body {
+  color: #fff;
+}
 img {
   width: 100%;
   height: 100%;
@@ -6,4 +9,12 @@ img {
 
 .grad {
   background-image: linear-gradient(#f87e2c, #fb7e2a, #e06314);
+
+  font-family: "Raleway";
+
+  color: rgb(255, 255, 255);
+
+  line-height: 1.308;
+
+  text-align: left;
 }
