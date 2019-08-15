@@ -62,7 +62,7 @@
 
         <!-- Icon Divider -->
         <div class="divider-custom divider-light" style="margin-bottom: 16rem">
-            <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <a class="btn btn-outline-light btn-social mx-1"  href="#one" >
                 <i class="glyphicon glyphicon-menu-down"></i>
             </a>      
               </a>      
@@ -77,7 +77,7 @@
     </header>
 
     <!-- Portfolio Section -->
-    <section class="page-section portfolio" id="portfolio" style="background-color:  #344457">
+    <section class="page-section portfolio" id="one" style="background-color:  #344457">
       <div class="container" style="padding-top: 4rem;padding-bottom: 4rem">
         <!-- Portfolio Grid Items -->
         <div class="card-columns">
@@ -108,8 +108,7 @@
                             <span class="glyphicon glyphicon-chevron-right">
                             </span>
                         </span>
-                        ACCESS TO PROJECT
-                       
+                        ACCESS TO PROJECT                       
                         </a>
                    </div>
             </div>
@@ -214,7 +213,16 @@
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-
+    
+    <script type="text/javascript">
+      $("a[href^='#']").click(function(e) {
+          e.preventDefault();          
+          var position = $($(this).attr("href")).offset().top;
+          $("body, html").animate({
+            scrollTop: position
+          } /* speed */ );
+      });
+    </script>
 
     
 

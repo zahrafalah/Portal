@@ -12,3 +12,6 @@
 header {
   background-image: url("../images/hero-background.jpg");
 }
+hr {
+  height: 100vh;
+}
