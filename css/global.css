@@ -6,12 +6,58 @@
   color: rgb(255, 255, 255);
 
   line-height: 1.308;
-
-  text-align: left;
+  box-shadow: 0px 3px 0px rgba(30, 50, 73, 0.26);
 }
 header {
   background-image: url("../images/hero-background.jpg");
 }
 hr {
   height: 100vh;
+}
+.btn {
+  height: 10rem;
+}
+h2 {
+  vertical-align: middle;
+  font-size: 20px;
+  text-shadow: 0px 3px 0px rgba(30, 50, 73, 0.26);
+  color: #fff;
+}
+
+.card-img-caption {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-img-caption .card-img-top {
+  z-index: 0;
+}
+
+.card-img-caption .card-text {
+  text-align: center;
+  width: 100%;
+  margin: 23% 0;
+  position: absolute;
+  z-index: 1;
+}
+.card-img-caption {
+  font-size: 50px;
+
+  font-family: "Raleway";
+
+  color: rgb(255, 255, 255);
+
+  line-height: 0.68;
+
+  text-align: center;
+
+  text-shadow: 0px 3px 0px rgba(30, 50, 73, 0.55);
+  /* 
+  position: absolute;
+
+  left: 364.994px;
+
+  top: 898.5px;
+
+  z-index: 118; */
 }
